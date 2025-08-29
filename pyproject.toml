@@ -5,10 +5,17 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "dash>=3.2.0",
+    "dash-cytoscape>=1.0.2",
+    "langchain-community>=0.3.27",
     "langchain-core>=0.3.74",
     "langchain-experimental>=0.3.4",
     "langchain-google-genai>=2.1.9",
     "langchain-neo4j>=0.5.0",
+    "matplotlib>=3.10.5",
+    "nbformat>=5.10.4",
+    "networkx>=3.5",
+    "plotly>=6.3.0",
     "pypdf>=5.9.0",
     "python-dotenv>=1.1.1",
     "transformers>=4.55.2",
